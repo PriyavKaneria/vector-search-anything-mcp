@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "text-search": {
+      "command": "node",
+      "args": ["{{UPDATE_THIS_BASE_PATH}}/vector-search-anything-mcp/dist/index.js"]
+    }
+  }
+}

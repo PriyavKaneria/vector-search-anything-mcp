@@ -1,0 +1,26 @@
+{
+  "name": "text-search-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for semantic text search using local vector database",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@xenova/transformers": "^2.17.2",
+    "better-sqlite3": "^11",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.0"
+  },
+  "bin": {
+    "text-search-mcp": "./dist/index.js"
+  }
+}
